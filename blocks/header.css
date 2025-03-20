@@ -61,18 +61,18 @@
   flex-direction: column;
 }
 
-.header__footer-column_header {
+.header__footer-column-heading {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.header__footer-column_list {
+.header__footer-list {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
   flex-direction: column;
 }
 
-.header__footer-column_content_address {
+.header__footer-address {
   align-items: flex-end;
 }
