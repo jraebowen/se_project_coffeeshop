@@ -7,6 +7,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -40,6 +41,7 @@
   height: 568px;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {

@@ -18,8 +18,7 @@
 }
 
 .form__label {
-  margin: 0;
-  padding-bottom: 8px;
+  margin: 0 0 8px 0;
   font-weight: 500;
   display: block;
 }
@@ -35,10 +34,22 @@
   border: 1px solid #838383;
   border-radius: 4px;
   padding: 15px 20px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
 }
 
 .form__input::placeholder {
   padding: 15px 20px;
+  color: #838383;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .form__button {
@@ -61,6 +72,7 @@
   display: flex;
   justify-content: center;
   gap: 12px;
+  margin: 0;
 }
 
 .form__checkbox {
